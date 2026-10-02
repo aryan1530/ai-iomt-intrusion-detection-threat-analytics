@@ -1,0 +1,55 @@
+{
+  "mi": {
+    "num__syn_flag_number": 0.6326440947361839,
+    "num__syn_count": 0.3563506946680912,
+    "num__Number": 0.3486390833860773,
+    "num__Min": 0.026684948255897067,
+    "num__ack_count": 0.01957931364178611,
+    "cat__Protocol_Type_udp": 0.013510677247713154
+  },
+  "ranks": {
+    "random_forest": {
+      "num__syn_flag_number": 0.7071157746678693,
+      "num__syn_count": 0.1464109799795864,
+      "num__Number": 0.13918888107940747,
+      "num__Min": 0.004080442798688513,
+      "num__ack_count": 0.0025765262332027583,
+      "cat__Protocol_Type_udp": 0.0006273952412456565
+    },
+    "adaboost": {
+      "num__syn_flag_number": 1.0,
+      "num__syn_count": 0.0,
+      "num__Number": 0.0,
+      "num__Min": 0.0,
+      "num__ack_count": 0.0,
+      "cat__Protocol_Type_udp": 0.0
+    },
+    "xgboost": {
+      "num__syn_flag_number": 1.0,
+      "num__syn_count": 0.0,
+      "num__Number": 0.0,
+      "num__Min": 0.0,
+      "num__ack_count": 0.0,
+      "cat__Protocol_Type_udp": 0.0
+    },
+    "lightgbm": {
+      "num__syn_flag_number": 161,
+      "num__syn_count": 135,
+      "num__Min": 29,
+      "num__Number": 0,
+      "num__ack_count": 0,
+      "cat__Protocol_Type_udp": 0
+    }
+  },
+  "selected": [
+    "num__syn_flag_number",
+    "num__syn_count",
+    "num__Min",
+    "num__Number",
+    "num__ack_count",
+    "cat__Protocol_Type_udp"
+  ],
+  "mode": "union",
+  "mi_threshold": 0.01,
+  "top_k_per_model": 20
+}

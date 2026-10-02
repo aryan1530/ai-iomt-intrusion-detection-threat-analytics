@@ -1,0 +1,4 @@
+count,serror_rate,src_bytes,dst_bytes,duration,protocol_type
+210,0.91,40,0,0,tcp
+3,0.01,1200,3500,12,tcp
+180,0.88,0,0,1,tcp

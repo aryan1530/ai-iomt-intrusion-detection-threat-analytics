@@ -1,0 +1,79 @@
+{
+  "mi": {
+    "num__count": 0.3453027559152817,
+    "num__serror_rate": 0.2158609272908838,
+    "num__srv_serror_rate": 0.2106801520373025,
+    "num__dst_host_serror_rate": 0.19163335899725364,
+    "num__dst_host_srv_serror_rate": 0.1755366385638557,
+    "num__dst_host_srv_diff_host_rate": 0.026684948255897067,
+    "num__su_attempted": 0.02225775363319693,
+    "cat__service_other": 0.019002269057973198,
+    "cat__service_smtp": 0.01740667310118127,
+    "num__num_root": 0.013673267694791269
+  },
+  "ranks": {
+    "random_forest": {
+      "num__count": 0.47033313850546044,
+      "num__serror_rate": 0.1505061237922907,
+      "num__srv_serror_rate": 0.11900336472677941,
+      "num__dst_host_serror_rate": 0.08822202153738934,
+      "num__dst_host_srv_serror_rate": 0.08311048847529703,
+      "num__dst_host_srv_diff_host_rate": 0.0503807356616639,
+      "num__num_root": 0.018899950751077838,
+      "num__su_attempted": 0.008063475154721821,
+      "cat__service_other": 0.006105482678899153,
+      "cat__service_smtp": 0.005375218716420279
+    },
+    "adaboost": {
+      "num__count": 0.5997922422059422,
+      "num__serror_rate": 0.32836379246666747,
+      "num__dst_host_serror_rate": 0.06217769104697227,
+      "num__dst_host_srv_serror_rate": 0.009666274280417895,
+      "num__srv_serror_rate": 0.0,
+      "num__dst_host_srv_diff_host_rate": 0.0,
+      "num__su_attempted": 0.0,
+      "cat__service_other": 0.0,
+      "cat__service_smtp": 0.0,
+      "num__num_root": 0.0
+    },
+    "xgboost": {
+      "num__count": 0.46942415833473206,
+      "num__serror_rate": 0.18529848754405975,
+      "cat__service_other": 0.050252653658390045,
+      "num__dst_host_serror_rate": 0.048952486366033554,
+      "cat__service_smtp": 0.04829586669802666,
+      "num__srv_serror_rate": 0.043840598315000534,
+      "num__dst_host_srv_serror_rate": 0.04277703911066055,
+      "num__dst_host_srv_diff_host_rate": 0.04051416739821434,
+      "num__num_root": 0.03870626538991928,
+      "num__su_attempted": 0.031938161700963974
+    },
+    "lightgbm": {
+      "num__count": 582,
+      "num__serror_rate": 462,
+      "num__dst_host_serror_rate": 329,
+      "num__dst_host_srv_serror_rate": 306,
+      "num__dst_host_srv_diff_host_rate": 291,
+      "num__srv_serror_rate": 271,
+      "num__num_root": 61,
+      "num__su_attempted": 28,
+      "cat__service_other": 26,
+      "cat__service_smtp": 15
+    }
+  },
+  "selected": [
+    "num__count",
+    "num__serror_rate",
+    "num__dst_host_serror_rate",
+    "num__dst_host_srv_serror_rate",
+    "num__dst_host_srv_diff_host_rate",
+    "num__srv_serror_rate",
+    "num__num_root",
+    "num__su_attempted",
+    "cat__service_other",
+    "cat__service_smtp"
+  ],
+  "mode": "union",
+  "mi_threshold": 0.01,
+  "top_k_per_model": 20
+}

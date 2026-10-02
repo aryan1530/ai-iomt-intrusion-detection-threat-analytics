@@ -1,0 +1,49 @@
+{
+  "mi": {
+    "num__Loss": 0.6326440947361839,
+    "num__TotPkts": 0.34161610573796075,
+    "num__pLoss": 0.2158609272908838,
+    "num__Pulse": 0.01853206705996402,
+    "num__SIntPkt": 0.012047410867114694
+  },
+  "ranks": {
+    "random_forest": {
+      "num__Loss": 0.684139752274052,
+      "num__TotPkts": 0.23016958661914316,
+      "num__pLoss": 0.08131291221459548,
+      "num__SIntPkt": 0.0033531034558258927,
+      "num__Pulse": 0.0010246454363835658
+    },
+    "adaboost": {
+      "num__Loss": 1.0,
+      "num__TotPkts": 0.0,
+      "num__pLoss": 0.0,
+      "num__Pulse": 0.0,
+      "num__SIntPkt": 0.0
+    },
+    "xgboost": {
+      "num__Loss": 0.9957694411277771,
+      "num__TotPkts": 0.0024792328476905823,
+      "num__pLoss": 0.0011885837884619832,
+      "num__Pulse": 0.00041029651765711606,
+      "num__SIntPkt": 0.00015249116404447705
+    },
+    "lightgbm": {
+      "num__Loss": 701,
+      "num__TotPkts": 244,
+      "num__pLoss": 233,
+      "num__Pulse": 27,
+      "num__SIntPkt": 15
+    }
+  },
+  "selected": [
+    "num__Loss",
+    "num__TotPkts",
+    "num__pLoss",
+    "num__Pulse",
+    "num__SIntPkt"
+  ],
+  "mode": "union",
+  "mi_threshold": 0.01,
+  "top_k_per_model": 20
+}
